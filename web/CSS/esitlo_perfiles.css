@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/30/2019, 08:35:02 AM
+    Author     : javi0
+*/
+
+body{
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#logo_inicio{
+    height:100px;
+
+}
+
+hr{
+    border: 1px solid rgb(4, 238, 255);
+}
+
+.img_perfil{
+    height:70px;
+}
+
+
+a:hover{
+    color:white;
+}
+
+#btn_perfil{
+    margin-bottom:5%;
+}
+
+a{
+    margin-top: 10px;
+    
+}
+
+.select-wrapper input.select-dropdown{
+    color:white;
+}
+
+.row{
+    margin-top: 40px;
+}
+

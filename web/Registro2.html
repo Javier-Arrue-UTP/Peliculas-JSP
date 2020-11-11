@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registrarse</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="CSS/registro.css">
+        
+        
+    </head>
+    <body class="white-text">
+        
+        
+        <section>
+            
+            
+            <div class="container center-align">
+                <a href="index.html">
+                    <img src="Imagenes/Logo.png" alt="" id="logo_inicio">
+                </a> 
+                    
+                <hr>
+            </div>
+            
+          
+               
+            <!-- ESTRUCTURA DIVIDE LA PAGINA EN 2 -->
+            <div class="row"> 
+                
+                <!-- SECCION DE LA IZQUIERDA-->
+                <div class="container">
+                    <div class="col s6">
+                            <h6 class="center-align">Ingresa tus datos</h6>
+                            
+                         <br> 
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card" id="carta_inicio">
+                                    <div class="card-content white-text">
+                                        
+                                            <div class="row">
+                                                <div class="input-field col s12" >
+                                                    <input name="nombre" type="text" class="validate white-text" form="formulario" required>
+                                                    <label for="nombre">Nombre</label>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="input-field col s12">
+                                                    <input name="apellido" type="text" class="validate white-text" form="formulario" required>
+                                                    <label for="apellido">Apellido</label>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                    <div class="input-field col s12">
+                                                        <input name="identificacion" type="text" class="validate white-text" form="formulario" required> 
+                                                        <label for="identificacion">Identificacion</label>
+                                                    </div>
+                                            </div>
+                                        
+                                            <div class="row">
+                                                 <div class="input-field col s12">
+                                                        <input name="email" type="email" class="validate white-text" form="formulario" required>
+                                                        <label for="email">Email</label>
+                                                 </div>
+                                            </div>
+                                        
+                                            <div class="row">
+                                                 <div class="input-field col s12">
+                                                        <input name="contraseña" type="text" class="validate white-text" form="formulario" required>
+                                                        <label for="contraseña">Contraseña</label>
+                                                 </div>
+                                            </div>
+
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                         <!-- FORMA DE PAGO-->
+                        <h6 class="center-align">Configura tu forma de pago</h6>
+                        <br>
+                        <div class="row" >
+                                <div class="col s12">
+                                    <div class="card" id="carta_inicio" >
+                                        <div class="card-content">
+                                            <div class="input-field ">
+                                                <select name="tarjeta_tipo" form="formulario" required>
+                                                      <option value="" disabled selected>Escoge el tipo de tarjeta</option>
+                                                      <option  value="CR" >Crédito</option>
+                                                      <option value="DB" > Débito</option>
+                                                </select>
+                                                    <label>Tipo de tarjeta</label>
+                                            </div>
+
+
+
+                                            <div class="row">
+                                                    <div class="input-field col s12" >
+                                                        <input name="num_tarjeta" type="text" class="validate white-text" form="formulario" required>
+                                                        <label for="last_name">Número de tarjeta</label>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+
+                        </div>
+
+                    </div><!-- SECCION DE LA IZQUIERDA-->
+                </div>
+
+
+
+
+
+                <!-- SECCION DE LA DERECHA TIPOS de PLANES-->
+                <div class="col s6">
+                        
+                    <div class="container">
+                        <h6 class="center-align">Selecciona tu Plan</h6>
+                        <br>   
+
+
+                        <!-- PREMIUM-->
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card hoverable white">
+                                    <div class="card-content black-text">
+
+                                        <span class="card-title">Ultra</span>
+                                        <p>
+                                            <label>
+                                                <input class="with-gap" name="plan" type="radio"  value="3" form="formulario" required/>
+                                                <span>USD 16.00/mes</span>
+                                            </label>
+                                        </p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col s6">
+                                                <img src="Imagenes/4k hdr.png" alt="" class="imagenes">
+                                                <br>
+                                                <span id="texto">Video ultra HD</span>
+                                            </div>
+                                            <div class="col s6">
+                                                <img src="Imagenes/4pantallas.png" alt="" class="imagenes">
+                                                <br>
+                                                <span id="texto">Disfruta en 4 pantallas a la vez.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ESTANDAR -->
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card hoverable white">
+                                    <div class="card-content black-text">
+                                        <span class="card-title">Estándar</span>
+                                        <p>
+                                            <label>
+                                                 <input class="with-gap" name="plan" type="radio"  value="2" form="formulario"/>
+                                                <span>USD 14.00/mes</span>
+                                            </label>
+                                        </p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col s6">
+                                                    <img src="Imagenes/hd.png" alt="" class="imagenes1">
+                                                    <br>
+                                                    <span id="texto">Video en alta definición.</span>
+                                            </div>
+                                            <div class="col s6">
+                                                    <img src="Imagenes/2 pantallas.png" alt="" class="imagenes">
+                                                    <br>
+                                                    <span id="texto">Disfruta en 2 pantallas a la vez.</span>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                        <!-- BASICO -->
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card hoverable white">
+                                    <div class="card-content black-text">
+                                        <span class="card-title">Básico</span>
+                                        <p>
+                                            <label>
+                                                 <input class="with-gap" name="plan" type="radio"  value="1" form="formulario"/>
+                                                <span>USD 9.00/mes</span>
+                                            </label>
+                                        </p>
+                                        <hr> 
+                                    
+                                        <div class="row">
+                                            <div class="col s6">
+                                                    <img src="Imagenes/sd.png" alt="" class="imagenes1">
+                                                    <br>
+                                                    <span id="texto">Video en definición estándar</span>
+                                            </div>
+                                            <div class="col s6">
+                                                    <img src="Imagenes/1 pantalla.png" alt="" class="imagenes" >
+                                                    <br>
+                                                    <span id="texto">Disfruta en 1 pantalla a la vez.</span>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                
+                <!-- ACABA LADO DERECHO-->
+
+
+            <div class="center-align">
+                
+            <form method="get" action="guardar.jsp" id="formulario"> <!------------------ FORMULARIO ------------------------>
+            
+                    <button class="btn-large waves-effect waves-light  light-blue center-align" type="submit">Iniciar membresía</button>
+                    <br><br>
+            
+            </form> 
+            <!------------------ FORMULARIO ------------------------>
+            </div>
+                
+            </div>
+            <!-- ACABA DIVISION DE PAGINA-->
+
+
+        </section>
+        
+    
+
+     <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+            </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems);
+  });
+
+</script>
+        
+        
+    </body>
+</html>

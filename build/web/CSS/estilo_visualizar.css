@@ -1,0 +1,48 @@
+nav{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+
+}
+
+footer{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+}
+
+
+
+#menu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo{
+    height: 70px; 
+    margin-top: -5px;
+
+}
+
+#carta1{
+    background: rgba(0, 0, 0, 0.61);
+}
+
+#pie{
+    background: #012f52;
+}
+
+#enviar{
+    background:white;
+    color: black;
+}
+
+#enviar:hover{
+    background: rgba(255, 255, 255, 0);;
+    border: 1px solid white;
+    color:white;
+}
+
+#fav{
+    background:#2196f3;
+}
+
+#fav:hover{
+    background: red;
+}

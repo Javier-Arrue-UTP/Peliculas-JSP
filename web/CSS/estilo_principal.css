@@ -1,0 +1,63 @@
+#menu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+
+}
+
+.logo{
+    height: 70px; 
+    margin-top: -5px;
+
+}
+
+#carta{
+    background: black;
+    font-weight: bolder;
+}
+
+#imagen{
+    height: 420px;
+    width: 100%;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+    color: rgb(19, 147, 170);
+}
+
+.tabs .tab a{
+    color: black;
+}
+
+.tabs .indicator{
+    background-color:rgb(19, 147, 170);
+
+}
+
+.slider .indicators .indicator-item{
+    background-color: white;
+
+}
+
+.slider .indicators .indicator-item.active{
+    background-color:rgb(19, 147, 170);
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+    color:black;
+}
+
+.titulo{
+    color:black;
+
+}
+
+footer{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+}
+
+#btn{
+    background: rgba(0, 0, 0, 0.432);
+}

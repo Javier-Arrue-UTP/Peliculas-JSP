@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/28/2019, 03:19:06 PM
+    Author     : javi0
+*/
+
+body{
+    background: url(https://wallpapertag.com/wallpaper/full/8/1/4/788967-new-cool-rainbow-abstract-backgrounds-1920x1200-free-download.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo_inicio{
+    height:150px;
+
+}
+
+hr{
+    border: 1px solid rgb(4, 238, 255);
+}
+
+#carta_inicio{
+    background:rgba(0, 0, 0, 0.411);
+
+}
+
+.imagenes{
+    height:80px;
+}
+
+.imagenes1{
+margin-top:10px;
+height:70px;
+}
+
+#texto{
+    color:grey;
+
+}
+.icono{
+    color:rgb(1, 189, 202);
+
+}
+
+.select-wrapper input.select-dropdown{
+    color:white;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+    color:black;
+}

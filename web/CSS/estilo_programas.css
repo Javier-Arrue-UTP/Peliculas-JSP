@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/11/2019, 10:21:16 AM
+    Author     : javi0
+*/
+nav{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+
+}
+
+footer{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+}
+
+#menu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo{
+    height: 70px; 
+    margin-top: -5px;
+
+}
+#carta_grande{
+    margin-bottom: -5px;
+}
+
+#imagen{
+    height: 400px;
+    width: 100%;
+}

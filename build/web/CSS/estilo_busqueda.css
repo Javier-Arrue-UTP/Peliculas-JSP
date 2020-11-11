@@ -1,0 +1,25 @@
+#menu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo{
+    height: 70px; 
+    margin-top: -5px;
+
+}
+
+
+#carta{
+    background: rgba(0, 0, 0, 0.192);
+    font-weight: bolder;
+}
+
+#imagen{
+    height: 400px;
+    width: 100%;
+}
+
+#carta_grande{
+    margin-bottom: -5px;
+}
